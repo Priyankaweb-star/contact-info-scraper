@@ -3,9 +3,11 @@
 This Python tool performs intelligent web crawling and contact extraction. Starting from DuckDuckGo search results, it scrapes websites and uses NLP (spaCy) to extract:
 
 - Person names
+- Designation
 - Organizations
 - Email addresses
 - Phone numbers
+- Source URL
 
 All results are deduplicated and exported to an Excel file.
 
